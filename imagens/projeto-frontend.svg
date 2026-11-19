@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+<title id="title">Projeto Práticas Front-End</title><desc id="desc">Ilustração de um monitor exibindo uma interface com elementos de desenvolvimento web.</desc>
+<rect width="800" height="350" rx="18" fill="#211a2b"/><rect x="130" y="38" width="540" height="250" rx="16" fill="#15111c" stroke="#6c4d83" stroke-width="4"/><rect x="154" y="62" width="492" height="34" rx="6" fill="#30203d"/>
+<circle cx="176" cy="79" r="6" fill="#d0a8f1"/><circle cx="198" cy="79" r="6" fill="#a477c7"/><circle cx="220" cy="79" r="6" fill="#765099"/>
+<rect x="160" y="116" width="132" height="145" rx="8" fill="#4b3560"/><rect x="312" y="116" width="314" height="62" rx="8" fill="#30203d"/><rect x="312" y="192" width="148" height="69" rx="8" fill="#684b80"/><rect x="478" y="192" width="148" height="69" rx="8" fill="#4f416a"/>
+<text x="226" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#f5eaff">WEB</text><text x="469" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#f5eaff">HTML  CSS  JS</text>
+<path d="M330 310h140l-18 18H348z" fill="#6c4d83"/><rect x="300" y="326" width="200" height="8" rx="4" fill="#9b6dcc"/>
+</svg>

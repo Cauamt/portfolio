@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+<title id="title">Projeto HTML Semântico</title><desc id="desc">Ilustração de uma página web com cabeçalho, menu e blocos de conteúdo.</desc>
+<rect width="800" height="350" rx="18" fill="#211a2b"/><rect x="72" y="48" width="656" height="254" rx="12" fill="#15111c" stroke="#6c4d83" stroke-width="3"/>
+<rect x="96" y="70" width="608" height="35" rx="6" fill="#4b3560"/><circle cx="116" cy="87" r="6" fill="#d0a8f1"/><circle cx="138" cy="87" r="6" fill="#a477c7"/><circle cx="160" cy="87" r="6" fill="#765099"/>
+<rect x="100" y="126" width="165" height="145" rx="8" fill="#30203d"/><rect x="286" y="126" width="394" height="24" rx="5" fill="#9b6dcc"/><rect x="286" y="166" width="330" height="12" rx="5" fill="#887b95"/><rect x="286" y="190" width="360" height="12" rx="5" fill="#665b73"/><rect x="286" y="228" width="110" height="28" rx="6" fill="#684b80"/>
+<text x="182" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" font-weight="bold" fill="#f5eaff">HTML</text>
+</svg>

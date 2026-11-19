@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio acadêmico de Cauã, estudante de Engenharia de Software com interesse em desenvolvimento Front-End.">
+    <title>Portfólio - Cauã</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho e navegação principal -->
+    <header>
+        <nav aria-label="Navegação principal">
+            <div class="logo">Cauã<span>.</span></div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <small>Engenharia de Software • Front-End</small>
+            <h1>Olá, eu sou<br><span>Cauã.</span></h1>
+            <p>Sou estudante de Engenharia de Software e estou aprendendo programação web. Meu objetivo é trabalhar com Desenvolvimento Front-End.</p>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal do portfólio -->
+    <main>
+        <!-- Apresentação e informações pessoais -->
+        <section id="sobre">
+            <div class="section-label">01 / Sobre mim</div>
+            <div class="about">
+                <div>
+                    <h2>Começando<br>a jornada.</h2>
+                    <div class="about-text">
+                        <p>Meu nome é Cauã, sou estudante de Engenharia de Software e estou aprendendo programação web.</p>
+                        <p>Atualmente estou desenvolvendo meus conhecimentos por meio das atividades da faculdade. Quero continuar praticando e transformar esse aprendizado em projetos próprios.</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <strong>Curso</strong>
+                    <p>Engenharia de Software</p>
+                    <strong>Área de interesse</strong>
+                    <p>Desenvolvimento Front-End</p>
+                    <strong>Tecnologias</strong>
+                    <p>HTML, CSS, JavaScript e Java</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimentos">
+            <div class="section-label">02 / Conhecimentos</div>
+            <h2>O que estou<br>aprendendo.</h2>
+            <div class="skills">
+                <div class="skill"><span class="number">01</span><h3>HTML</h3><p>Estrutura e organização de páginas web.</p></div>
+                <div class="skill"><span class="number">02</span><h3>CSS</h3><p>Estilização e organização visual.</p></div>
+                <div class="skill"><span class="number">03</span><h3>JavaScript</h3><p>Interatividade e programação para a web.</p></div>
+                <div class="skill"><span class="number">04</span><h3>Java</h3><p>Estou aprendendo os fundamentos da linguagem e os primeiros conceitos de Programação Orientada a Objetos (POO).</p></div>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead><tr><th>Tecnologia</th><th>Nível</th><th>Onde aplico</th></tr></thead>
+                    <tbody>
+                        <tr><td>HTML</td><td>Iniciante</td><td>Estrutura de páginas</td></tr>
+                        <tr><td>CSS</td><td>Iniciante</td><td>Estilização visual</td></tr>
+                        <tr><td>JavaScript</td><td>Iniciante</td><td>Interatividade em páginas web</td></tr>
+                        <tr><td>Java</td><td>Iniciante</td><td>Fundamentos e introdução à POO</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Projetos e filtro por tecnologia -->
+        <section id="projetos">
+            <div class="section-label">03 / Projetos</div>
+            <h2>Atividades<br>e práticas.</h2>
+            <div class="project-filters" role="group" aria-label="Filtrar projetos por tecnologia">
+                <button class="filter-button" type="button" data-filter="Todos" aria-pressed="true">Todos</button>
+                <button class="filter-button" type="button" data-filter="HTML" aria-pressed="false">HTML</button>
+                <button class="filter-button" type="button" data-filter="CSS" aria-pressed="false">CSS</button>
+                <button class="filter-button" type="button" data-filter="JavaScript" aria-pressed="false">JavaScript</button>
+            </div>
+            <p class="filter-count" id="filter-count" aria-live="polite">2 projeto(s) encontrado(s).</p>
+            <div class="projects">
+                <article data-project data-category="HTML">
+                    <div>
+                        <img class="project-cover" src="imagens/projeto-html.svg" alt="Ilustração de uma página organizada com elementos HTML">
+                        <span class="project-type">Atividade acadêmica</span>
+                        <h3>HTML Semântico</h3>
+                        <p>Projeto de estudo para praticar a criação e organização de páginas utilizando elementos semânticos do HTML. O público é formado por pessoas que acessam uma página informativa, e minha contribuição foi estruturar o conteúdo de forma organizada.</p>
+                    </div>
+                    <div>
+                        <p class="tags"><strong>Tecnologias:</strong> HTML</p>
+                        <div class="project-actions"><a href="#contato">Solicitar detalhes</a></div>
+                    </div>
+                </article>
+
+                <article data-project data-category="HTML CSS JavaScript">
+                    <div>
+                        <img class="project-cover" src="imagens/projeto-frontend.svg" alt="Ilustração de uma interface web com HTML, CSS e JavaScript">
+                        <span class="project-type">Em desenvolvimento • Projeto acadêmico</span>
+                        <h3>Práticas Front-End</h3>
+                        <p>Conjunto de atividades para desenvolver páginas e pequenas interações para usuários da web. Minha contribuição envolve estruturar a interface, aplicar estilos responsivos e implementar comportamentos com JavaScript.</p>
+                    </div>
+                    <div>
+                        <p class="tags"><strong>Tecnologias:</strong> HTML, CSS e JavaScript</p>
+                        <div class="project-actions"><a href="#contato">Solicitar detalhes</a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <aside>
+            <h2>Próximo objetivo</h2>
+            <p>Continuar estudando programação web e desenvolver projetos próprios para construir experiência em <strong>Desenvolvimento Front-End</strong>.</p>
+        </aside>
+
+        <!-- Formulário de contato -->
+        <section id="contato">
+            <div class="section-label">04 / Contato</div>
+            <div class="contact">
+                <div>
+                    <h2>Vamos<br>conversar?</h2>
+                    <p>Envie uma mensagem pelo formulário. Ela será encaminhada para meu e-mail.</p>
+                </div>
+
+                <form id="contact-form" novalidate>
+                    <input type="hidden" name="_subject" value="Nova mensagem pelo portfólio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required minlength="3" maxlength="80" autocomplete="name" aria-describedby="nome-help nome-error">
+                    <small class="field-help" id="nome-help">Obrigatório, de 3 a 80 caracteres úteis.</small>
+                    <small class="field-error" id="nome-error"></small>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required autocomplete="email" aria-describedby="email-help email-error">
+                    <small class="field-help" id="email-help">Informe um endereço de e-mail válido.</small>
+                    <small class="field-error" id="email-error"></small>
+
+                    <label for="motivo">Motivo do contato</label>
+                    <select id="motivo" name="motivo" required aria-describedby="motivo-error">
+                        <option value="">Selecione uma opção</option>
+                        <option value="profissional">Oportunidade profissional</option>
+                        <option value="freelance">Projeto freelance</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <small class="field-error" id="motivo-error"></small>
+
+                    <div class="conditional-field" id="assunto-group" hidden>
+                        <label for="assunto">Assunto adicional</label>
+                        <input type="text" id="assunto" name="assunto" minlength="5" maxlength="100" placeholder="Qual é o assunto?" disabled aria-describedby="assunto-help assunto-error">
+                        <small class="field-help" id="assunto-help">Obrigatório somente ao selecionar Outro, de 5 a 100 caracteres úteis.</small>
+                        <small class="field-error" id="assunto-error"></small>
+                    </div>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required minlength="30" maxlength="1000" aria-describedby="mensagem-help message-counter mensagem-error"></textarea>
+                    <small class="field-help" id="mensagem-help">Obrigatório, de 30 a 1000 caracteres úteis.</small>
+                    <small class="field-help" id="message-counter" aria-live="polite">0/1000 caracteres (mínimo: 30).</small>
+                    <small class="field-error" id="mensagem-error"></small>
+
+                    <fieldset class="form-test">
+                        <legend>Teste para apresentação</legend>
+                        <p>Use esta opção somente durante a demonstração em sala. No modo normal, a mensagem é enviada de verdade.</p>
+                        <label for="test-outcome">Modo de envio</label>
+                        <select id="test-outcome" name="test-outcome">
+                            <option value="real">Enviar mensagem real</option>
+                            <option value="success">Demonstrar sucesso</option>
+                            <option value="failure">Demonstrar falha</option>
+                        </select>
+                    </fieldset>
+
+                    <div id="form-summary" class="form-summary" role="alert" aria-live="assertive"></div>
+                    <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+                    <button type="submit" id="submit-button">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 Cauã</p>
+        <p>Portfólio acadêmico • Engenharia de Software</p>
+    </footer>
+</body>
+</html>
