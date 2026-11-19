@@ -30,7 +30,7 @@ Não é necessário instalar dependências.
 
 ## Atenção sobre o contato
 
-O formulário usa o serviço FormSubmit para encaminhar mensagens a caua.matos@ucsal.edu.br. No primeiro envio, o serviço pode solicitar a confirmação do endereço por um e-mail de ativação. Até essa confirmação, o envio real pode não funcionar. A opção de demonstração serve apenas para testar sucesso e falha em sala e não envia mensagens.
+O formulário usa o serviço FormSubmit para encaminhar mensagens. No primeiro envio, o serviço pode solicitar a confirmação do endereço por um e-mail de ativação. Até essa confirmação, o envio real pode não funcionar. A opção de demonstração serve apenas para testar sucesso e falha em sala e não envia mensagens.
 
 ## Documentação
 
