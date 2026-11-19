@@ -25,7 +25,7 @@ Não é necessário instalar dependências.
 - Formulário com validação de nome, e-mail, motivo, assunto condicional e mensagem.
 - Contador de caracteres da mensagem.
 - Conhecimentos em HTML, CSS e JavaScript, além de Java em nível iniciante, com introdução à POO.
-- Envio real de mensagens pelo FormSubmit para caua.matos@ucsal.edu.br.
+- Envio real de mensagens pelo FormSubmit
 - Modo de demonstração controlada de sucesso e falha para a apresentação.
 
 ## Atenção sobre o contato
